@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: #ffffff;
+  background-color: white;
 }
 
 .App-header {  
@@ -38,7 +38,7 @@
   bottom:4px;
   left:0;
   right:0;
-  background:rgba(255,255,255,0.35);
+  background:rgba(255, 255, 255, 0.932);
   font-weight: bold;
   font-size:0.7rem;
   padding:2px 5px;

@@ -29,6 +29,7 @@ function App() {
       <header className="App-header">
         <div className="input-wrap">
           <TextField fullWidth variant="outlined"
+            
             label="Search for memes!"
             value={text}
             onChange={e=> setText(e.target.value)}
