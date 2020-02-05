@@ -54,8 +54,11 @@ function App() {
 }
 
 function Meme({images, title}){
+  // const {meme} = images
+  // const url = meme.images.fixed_height.url
+
   return <div className="meme">
-    <img src={images.fixed_height.url} alt="meme" />
+    <img src={images.fixed_height.url} alt="meme" onClick={()=>window.open(images.fixed_height.url, '_blank')} />
     <div className="meme-title">{title}</div>
   </div>
 }
